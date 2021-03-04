@@ -1,6 +1,6 @@
 # Document-Retrieval-and-Question-Answering-with-BERT
 
-In first part of this repository we developed, with 2 different techniques, a Document Retrieval System, which aims to return titles of scientific
+1. In first part of this repository we developed, with 2 different techniques, a Document Retrieval System, which aims to return titles of scientific
 papers containing the answer to a given user question. 
 
 Note that our dataset is the initial-first release of CORD-19 dataset, 2020-03-13, which is the smallest possible dataset with 9000 articles. 
@@ -34,7 +34,7 @@ You can check thoroughly in this [notebook](https://github.com/spympr/Document-R
 > 
 > Cosine Similarity: 0.63
 
-In second part of this repository we 
+2. In second part of this repository we 
 
 [SQuAD 2.0 dataset](https://rajpurkar.github.io/SQuAD-explorer/)
 
