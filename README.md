@@ -40,7 +40,7 @@ For this question answering task we started with the BERT-base pretrained model 
 
 After fine-tuning, we construct our own passages in order to evaluate our fine tuned model's performance, which we encourage you to check this [notebook](https://github.com/spympr/Document-Retrieval-and-Question-Answering-with-BERT/blob/main/Question_Answering/BertEvaluation.ipynb). Also you can observe performance of ['bert-large-uncased-whole-word-masking-finetuned-squad'](https://huggingface.co/bert-large-uncased-whole-word-masking-finetuned-squad) in same passages we created, in order to compare it with ours, in this [notebook](https://github.com/spympr/Document-Retrieval-and-Question-Answering-with-BERT/blob/main/Question_Answering/CompareWithBertFineTunedSQuAD.ipynb).
 
-> Here you can observe a couple of our examples based on certain passage:
+> Here you can observe a couple of our examples based on certain passage (contains information about cloud):
 >
 > Example with decent performance:
 >
