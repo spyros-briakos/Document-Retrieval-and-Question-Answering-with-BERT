@@ -31,3 +31,5 @@ You can check thoroughly in this [notebook](https://github.com/spympr/Document-R
 > From article with title: A novel coronavirus capable of lethal human infections: an emerging picture 
 > 
 > Cosine Similarity: 0.63
+
+Note that all notebooks for both tasks are well reported and were implemented with ***Machine Learning Library Pytorch***. Running's procedure took place on ***Google Colab***, enhanced with ***Cuda GPU!***
