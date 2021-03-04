@@ -40,30 +40,27 @@ For this question answering task we started with the BERT-base pretrained model 
 
 After fine-tuning, we construct our own passages in order to evaluate our fine tuned model's performance, which we encourage you to check this [notebook](https://github.com/spympr/Document-Retrieval-and-Question-Answering-with-BERT/blob/main/Question_Answering/BertEvaluation.ipynb). Also you can observe performance of ['bert-large-uncased-whole-word-masking-finetuned-squad'](https://huggingface.co/bert-large-uncased-whole-word-masking-finetuned-squad) in same passages we created, in order to compare it with ours, in this [notebook](https://github.com/spympr/Document-Retrieval-and-Question-Answering-with-BERT/blob/main/Question_Answering/CompareWithBertFineTunedSQuAD.ipynb).
 
-> Here you can observe a couple of our examples:
+> Here you can observe a couple of our examples based on certain passage:
 >
 > Example with decent performance:
-> 
-> Query: What was discovered in Wuhuan in December 2019? 
 >
-> Answer 1 : In December 2019, a cluster of pneumonia of unknown etiology was detected in Wuhan City, Hubei Province of China.
+> Question: What is cloud computing?
 >
-> From article with title: Clinical Medicine Characteristics of and Public Health Responses to the Coronavirus Disease 2019 Outbreak in China 
+> Prediction: on - demand availability of computer system resources,
 > 
-> Cosine Similarity: 0.62 
-
+> True Answer: on-demand availability of computer system resources
+>
+> EM: 0 	 F1: 0.7692307692307692
 
 > Example with not so good performance:
 > 
-> Query: How does coronavirus spread?  
+> Question: What does cloud computing allow?
 >
-> Answer 4 : Recently, a novel coronavirus has been identified in patients with severe acute respiratory illness [1, 2] .
->
-> From article with title: A novel coronavirus capable of lethal human infections: an emerging picture 
+> Prediction: sharing of resources to achieve coherence and economies of scale.
 > 
-> Cosine Similarity: 0.63
-
-<a id=’section_1’></a>
+> True Answer: enterprises to get their applications up and running faster
+> 
+> EM: 0 	 F1: 0.2105263157894737
 
 For more information about question answering systems, you can read the post [“How to Build an Open-Domain Question Answering System?”](https://lilianweng.github.io/lil-log/2020/10/29/open-domain-question-answering.html) and the survey [“Recent Trends in Deep Learning Based Open-Domain Textual Question Answering Systems”](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9072442)
 
