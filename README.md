@@ -34,4 +34,16 @@ You can check thoroughly in this [notebook](https://github.com/spympr/Document-R
 > 
 > Cosine Similarity: 0.63
 
+In second part of this repository we 
+
+[SQuAD 2.0 dataset](https://rajpurkar.github.io/SQuAD-explorer/)
+
+You should start with the BERT-base pretrained model [“bert-base-uncased”](https://huggingface.co/bert-base-uncased)
+and fine-tune it to have a question answering task
+
+Build a BERT-based model which returns “an answer”, given a user question and a passage which includes the answer of the question. For this question answering task.
+
+
+For more information about question answering systems, you can read the post [“How to Build an Open-Domain Question Answering System?”](https://lilianweng.github.io/lil-log/2020/10/29/open-domain-question-answering.html) and the survey [“Recent Trends in Deep Learning Based Open-Domain Textual Question Answering Systems”](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9072442)
+
 Note that all notebooks for both tasks are well reported and were implemented with ***Machine Learning Library Pytorch***. Running's procedure took place on ***Google Colab***, enhanced with ***Cuda GPU!***
