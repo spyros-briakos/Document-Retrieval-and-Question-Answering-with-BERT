@@ -12,7 +12,5 @@ You can find it here: [CORD-19_Releases](https://ai2-semanticscholar-cord-19.s3-
 
 To achieve the goal of this exercise, we first read [Sentence Embeddings using Siamese BERT-Networks](https://arxiv.org/pdf/1908.10084.pdf), in order to understand how to create sentence embeddings. We decided to transform sentences to embeddings, with the help of [SBERT Library](https://www.sbert.net/). So the main concept behind our retrieval system was to compare sentence embeddings (question's and possible answer's embedding) by cosine similarity. 
 
-You can check thoroughly in this [notebook](https://github.com/spympr/Document-Retrieval-and-Question-Answering-with              BERT/blob/main/Document_Retrieval_System/Document_Retrieval_with_BF.ipynb) 
-
-[othernotebook](https://github.com/spympr/Document-Retrieval-and-Question-Answering-with BERT/blob/main/Document_Retrieval_System/ Document_Retrieval_with_Heuristic.ipynb)
-
+You can check thoroughly in this [notebook](https://github.com/spympr/Document-Retrieval-and-Question-Answering-with              BERT/blob/main/Document_Retrieval_System/Document_Retrieval_with_BF.ipynb), where we tried to find as answer, with Brute-Force approach, the most similar vector, by searching every sentence of every section of each paper. Besides that approach, you can observe a more clever approach (with heuristic) in this 
+[notebook](https://github.com/spympr/Document-Retrieval-and-Question-Answering-with BERT/blob/main/Document_Retrieval_System/ Document_Retrieval_with_Heuristic.ipynb), where we gave emphasis initially in process to find most similar papers (10%) based only on title or/and abstract section. Then, we further searched papers we found, in body_text section so as to find the appropriate answer. With that approach we saved a lot of time and memory.
