@@ -10,12 +10,20 @@ papers containing the answer to a given user question.
 > Answer 1 : In December 2019, a cluster of pneumonia of unknown etiology was detected in Wuhan City, Hubei Province of China.
 >
 > From article with title: Clinical Medicine Characteristics of and Public Health Responses to the Coronavirus Disease 2019 Outbreak in China 
+> 
+> Cosine Similarity: 0.62 
+
 
 > Example with not so good performance:
 > 
+> Query: How does coronavirus spread?  
+>
 > Answer 4 : Recently, a novel coronavirus has been identified in patients with severe acute respiratory illness [1, 2] .
 >
 > From article with title: A novel coronavirus capable of lethal human infections: an emerging picture 
+> 
+> Cosine Similarity: 0.63
+
 
 Note that our dataset is the initial-first release of CORD-19 dataset, 2020-03-13, which is the smallest possible dataset with 9000 articles. 
 You can find it here: [CORD-19_Releases](https://ai2-semanticscholar-cord-19.s3-us-west-2.amazonaws.com/historical_releases.html)
