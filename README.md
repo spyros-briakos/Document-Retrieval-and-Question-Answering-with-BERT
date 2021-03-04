@@ -13,7 +13,7 @@ You can check thoroughly in this [notebook](https://github.com/spympr/Document-R
 
 > Here you can observe a couple of examples:
 >
-> 1. Example with decent performance:
+> Example with decent performance:
 > 
 > Query: What was discovered in Wuhuan in December 2019? 
 >
@@ -24,7 +24,7 @@ You can check thoroughly in this [notebook](https://github.com/spympr/Document-R
 > Cosine Similarity: 0.62 
 
 
-> 2. Example with not so good performance:
+> Example with not so good performance:
 > 
 > Query: How does coronavirus spread?  
 >
