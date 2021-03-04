@@ -3,13 +3,13 @@
 In first part of this repository we developed, with 2 different techniques, a Document Retrieval System, which aims to return titles of scientific
 papers containing the answer to a given user question. 
 
-Example with decent performance:
-
-Query: What was discovered in Wuhuan in December 2019? 
-
-Answer 1 : In December 2019, a cluster of pneumonia of unknown etiology was detected in Wuhan City, Hubei Province of China.
-
-From article with title: Clinical Medicine Characteristics of and Public Health Responses to the Coronavirus Disease 2019 Outbreak in China 
+> Example with decent performance:
+> 
+> Query: What was discovered in Wuhuan in December 2019? 
+>
+> Answer 1 : In December 2019, a cluster of pneumonia of unknown etiology was detected in Wuhan City, Hubei Province of China.
+>
+> From article with title: Clinical Medicine Characteristics of and Public Health Responses to the Coronavirus Disease 2019 Outbreak in China 
 
 Example with not so good performance:
 
